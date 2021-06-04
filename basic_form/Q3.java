@@ -16,6 +16,14 @@ import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage; 
 import javafx.scene.control.Label;
 
+/**
+FOR WINDOWS
+To run in cmd, download sdk for javafx via  <https://gluonhq.com/products/javafx/> , unzip put the file in program files -> java
+set path in cmd and compile using:
+javac --module-path "javafx file path" --add-modules javafx.controls,javafx.fxml hello.java
+run using:
+Java --module-path "javafx file path" --add-modules javafx.controls,javafx.fxml hello
+**/
 
 class portException extends Exception
 { 
