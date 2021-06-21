@@ -7,6 +7,8 @@ to a Boolean object. d. Statement that converts 'A' to a Character object.
 import java.util.*;
 public class object_conv{
  public static void main(String args[]){
+  
+  //sample
  double d = 1E6;
  int i = 1_000_000;
  boolean t = true;
