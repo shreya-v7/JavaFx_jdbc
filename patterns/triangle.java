@@ -1,5 +1,7 @@
 import java.util.*;
 
+
+//takes command line arguments
 public class triangle{
     public static void main(String[] args){
 
